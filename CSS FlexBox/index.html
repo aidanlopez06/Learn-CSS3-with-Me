@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="UA-X-Compatible" content="IE=edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FlexBox</title>
+</head>
+<body>
+    <h1>CSS Flexbox</h1>
+
+    <h2 class="topic">FlexBox</h2>
+    <p class="info">The flex box works in one dimension at a time. This means you can only work perpendicular or horizontal at a time. Rows(left to right) and columns (top to bottom) at a time. When using the flexbox, all affected elements must inside a container. Using the flex-direction property you can change the ordering from column to row, as well as column-reverse, and row-reverse.</p>
+
+    <section class="container">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+    </div>
+    </section>
+
+    <h2 class="topic">Flex-direction</h2>
+    <p class="info">You can change the ordering from column to row using the flex-direction property. Here is an example of (flex-direction: row;). The flex direction is row by default. You can always use row-reverse, or column-reverse to change the direction as well.</h2>
+    <section class="row">
+       <div class="childRow">1</div>
+       <div class="childRow">2</div>
+       <div class="childRow">3</div>
+       <div class="childRow">4</div>
+       <div class="childRow">5</div>
+    </section>
+
+        <p class="info">Here is an example of (flex-direction: column;).</p>
+        <section class="column">
+            <div class="childColumn">1</div>
+            <div class="childColumn">2</div>
+            <div class="childColumn">3</div>
+            <div class="childColumn">4</div>
+            <div class="childColumn">5</div>
+        </section>
+
+        <h2 class="topic">Justify Content Property</h2>
+        <p class="info">The justify content property allows you to manipulate the placement of elements inside a flexbox. The default value is (flex-start) and here is that example.</p>
+        <section class="justifyContent1">
+            <div class="jcRow1">1</div>
+            <div class="jcRow1">2</div>
+            <div class="jcRow1">3</div>
+            <div class="jcRow1">4</div>
+            <div class="jcRow1">5</div>
+        </section>
+
+        <p class="info">Here is an example of the (flex-end) value.</p>
+        <section class="justifyContent2">
+            <div class="jcRow2">1</div>
+            <div class="jcRow2">2</div>
+            <div class="jcRow2">3</div>
+            <div class="jcRow2">4</div>
+            <div class="jcRow2">5</div>
+        </section>
+
+        <p class="info">Here is an example of the (center) value.</p>
+        <section class="justifyContent3">
+            <div class="jcRow3">1</div>
+            <div class="jcRow3">2</div>
+            <div class="jcRow3">3</div>
+            <div class="jcRow3">4</div>
+            <div class="jcRow3">5</div>
+        </section>
+
+        <p class="info">Here is an example of a flexbox box with the flex-direction set to column, and the justify content being flex-start.</p>
+        <section class="column1">
+            <div class="column1Child">1</div>
+            <div class="column1Child">2</div>
+            <div class="column1Child">3</div>
+            <div class="column1Child">4</div>
+            <div class="column1Child">5</div>
+        </section>
+
+        <p class="info">Here is a flexbox with the flex-direction set to column, and the justify content set to flex-end.</p>
+        <section class="column2">
+            <div class="columnChild2">1</div>
+            <div class="columnChild2">2</div>
+            <div class="columnChild2">3</div>
+            <div class="columnChild2">4</div>
+            <div class="columnChild2">5</div>
+        </section>
+
+        <p class="info">Here is a flexbox with the flex-direction set to column, and the justify content set to center.</p>
+        <section class="column3">
+            <div class="columnChild3">1</div>
+            <div class="columnChild3">2</div>
+            <div class="columnChild3">3</div>
+            <div class="columnChild3">4</div>
+            <div class="columnChild3">5</div>
+        </section>
+
+        <h2 class="topic">Justify-Content Space-around Property</h2>
+        <p class="info">Here is a flexbox row with the justify-content set to space around. It makes space around the children, and the container.</p>
+        <section class="spaceAround">
+            <div class="childSA">1</div>
+            <div class="childSA">2</div>
+            <div class="childSA">3</div>
+            <div class="childSA">4</div>
+            <div class="childSA">5</div>
+        </section>
+
+        <h2 class="topic">Justify Content Space Between</h2>
+        <p class="info">This is an example of a flexbox with the flex direction set to row, and the justify content of space between.</p>
+        <section class="spaceBetween">
+            <div class="childSB">1</div>
+            <div class="childSB">2</div>
+            <div class="childSB">3</div>
+            <div class="childSB">4</div>
+            <div class="childSB">5</div>
+        </section>
+
+        <h2 class="topic">Flex-Wrap Property</h2>
+        <p class="info">The flex wrap property is automatically set to nowrap. You can change this to wrap, so that elements that are being squished together on a row or column can begin to form on a new row to stop the squishing. Kinda confusing, look at the example. These would normally squish together to stay on the same line, but thanks to the wrap property of the flex-wrap property, the extra elements will wrap onto a new row.</p>
+        <section class="flexWrap">
+            <div class="childFW">1</div>
+            <div class="childFW">2</div>
+            <div class="childFW">3</div>
+            <div class="childFW">4</div>
+            <div class="childFW">5</div>
+            <div class="childFW">6</div>
+            <div class="childFW">7</div>
+            <div class="childFW">8</div>
+            <div class="childFW">9</div>
+            <div class="childFW">10</div>
+            <div class="childFW">11</div>
+            <div class="childFW">12</div>
+            <div class="childFW">13</div>
+            <div class="childFW">14</div>
+            <div class="childFW">15</div>
+            <div class="childFW">16</div>
+            <div class="childFW">17</div>
+            <div class="childFW">18</div>
+            <div class="childFW">19</div>
+            <div class="childFW">20</div>
+        </section>
+
+        <h2 class="topic">Align-Items Property</h2>
+        <p class="info">The align items property works alongside the justify-content property. The align items appears to work on the Y axis, and the justify-content on the X axis. Here is an example of the default justify-content property value which is flex-start.</p>
+        <section class="alignItems1">
+            <div class="childAI1">1</div>
+            <div class="childAI1">2</div>
+            <div class="childAI1">3</div>
+            <div class="childAI1">4</div>
+            <div class="childAI1">5</div>
+        </section>
+
+        <p class="info">Here is an example of the align-items property value being set to flex-end.</p>
+        <section class="alignItems2">
+            <div class="childAI2">1</div>
+            <div class="childAI2">2</div>
+            <div class="childAI2">3</div>
+            <div class="childAI2">4</div>
+            <div class="childAI2">5</div>
+        </section>
+
+        <p class="info">Here is an example of the align-items property value being set to center.</p>
+        <section class="alignItems3">
+            <div class="childAI3">1</div>
+            <div class="childAI3">2</div>
+            <div class="childAI3">3</div>
+            <div class="childAI3">4</div>
+            <div class="childAI3">5</div>
+        </section>
+
+        <p class="info">This is probably the biggest thing here. In order to completely center all the boxes inside of the container, we need to use the justify-content propery, and the align-items property which all need to be set to center. Here is an example of that.</p>
+        <section class="bigCenter">
+            <div class="childCenter">1</div>
+            <div class="childCenter">2</div>
+            <div class="childCenter">3</div>
+            <div class="childCenter">4</div>
+            <div class="childCenter">5</div>
+        </section>
+
+        <h2 class="topic">The align-content property</h2>
+        <p class="info">The align content property allows you to manipulate elements as if you were using both the justify-content and the align-items properties. In order to use the align content property, you first have to make the flex-wrap property wrap the elements. The default is stretch, which is displayed here. It's stretched because no height or width has been given to the elements. To control this property, you use the same values as in the justify content and align items properties(This includes space-around and space-between).</p>
+        <section class="alignContent1">
+            <div class="childAC1">1</div>
+            <div class="childAC1">2</div>
+            <div class="childAC1">3</div>
+            <div class="childAC1">4</div>
+            <div class="childAC1">5</div>
+            <div class="childAC1">6</div>
+            <div class="childAC1">7</div>
+            <div class="childAC1">8</div>
+            <div class="childAC1">9</div>
+            <div class="childAC1">10</div>
+        </section>
+
+        <p class="info">Here's an example of the align content property, using the flex-start value.</p>
+        <section class="alignContent2">
+            <div class="childAC2">1</div>
+            <div class="childAC2">2</div>
+            <div class="childAC2">3</div>
+            <div class="childAC2">4</div>
+            <div class="childAC2">5</div>
+            <div class="childAC2">6</div>
+            <div class="childAC2">7</div>
+            <div class="childAC2">8</div>
+            <div class="childAC2">9</div>
+            <div class="childAC2">10</div>
+        </section>
+
+        <p class="info">Here's an example of the align content property using the flex end value.</p>
+        <section class="alignContent3">
+            <div class="childAC3">1</div>
+            <div class="childAC3">2</div>
+            <div class="childAC3">3</div>
+            <div class="childAC3">4</div>
+            <div class="childAC3">5</div>
+            <div class="childAC3">6</div>
+            <div class="childAC3">7</div>
+            <div class="childAC3">8</div>
+            <div class="childAC3">9</div>
+            <div class="childAC3">10</div>
+        </section>
+
+        <p class="info">Here's an example of the align content property using the center value.</p>
+        <section class="alignContent4">
+            <div class="childAC4">1</div>
+            <div class="childAC4">2</div>
+            <div class="childAC4">3</div>
+            <div class="childAC4">4</div>
+            <div class="childAC4">5</div>
+            <div class="childAC4">6</div>
+            <div class="childAC4">7</div>
+            <div class="childAC4">8</div>
+            <div class="childAC4">9</div>
+            <div class="childAC4">10</div>
+        </section>
+
+        <h2 class="topic">The order property</h2>
+        <p class="info">The children inside of a container will all have by default an order value of 0. This is why when you use any kinds of properties to move them they all move concurrently. Here is an example of giving one child an order of 1. Notice how the child with the order of 1 is pushed up and the child with the order of 2 is pushed to the end, because children 3 and 4 have a higher order than the rest of the children which are at 0 by default. </p>
+        <section class="order1">
+            <div class="childOrder1">1</div>
+            <div class="childOrder1">2</div>
+            <div class="childOrder1 special">3</div>
+            <div class="childOrder1 special2">4</div>
+            <div class="childOrder1">5</div>
+        </section>
+
+        <h2 class="topic">The align self property</h2>
+        <p class="info">The align self property aligns one child inside of a container. There's also the justify-self property that behaves just like this except there's no example for this. Here is an example, notice how one child is aligned in the center and the other at the (flex) end. Any value given with the align self property will override any styling given to the flexbox from the container. The align self property accepts all the same values you would find from the justify content, align items, and align content properties except space-between and space-around since you're only working with a single child.</p>
+        <section class="alignSelf">
+            <div class="childAS">1</div>
+            <div class="childAS">2</div>
+            <div class="childAS specialAS">3</div>
+            <div class="childAS specialAS2">4</div>
+            <div class="childAS">5</div>
+        </section>
+
+        <h2 class="topic">Flex grow property</h2>
+        <p class="info">The flex grow property allows you to increase the size of individual children relative to the rest of the flexible items inside the container. The default value is 0. The 1st child has the default value, the 2nd child has 1 as a value, the 3rd child has 2 as a value, and so on.</p>
+        <section class="flexGrow">
+            <div class="childFG">1</div>
+            <div class="childFG specialFG1">2</div>
+            <div class="childFG specialFG2">3</div>
+            <div class="childFG specialFG3">4</div>
+            <div class="childFG specialFG4">5</div>
+        </section>
+
+        <h2 class="topic">Flex basis property</h2>
+        <p class="info">The flex basis property sets the initial length of a flex item. The default value is auto. Here is an example where the initial length of the 2nd child is set to 200px.</p>
+        <section class="flexBasis">
+            <div class="childFB">1</div>
+            <div class="childFB specialChildFB">2</div>
+            <div class="childFB">3</div>
+            <div class="childFB">4</div>
+            <div class="childFB">5</div>
+        </section>
+
+        <h2 class="topic">flex-shrink property</h2>
+        <p class="info">The flex shrink property specifies how much a specific child will shrink relative to the other children inside a container. The default value is one. Here is an example of shrinking the second child.(Not shrinking as intended, but inside the css file is how to appropriately use it)</p>
+        <section class="flexShrink">
+            <div class="childFS">1</div>
+            <div class="childFS specialChildFS">2</div>
+            <div class="childFS">3</div>
+            <div class="childFS">4</div>
+            <div class="childFS">5</div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+            <div class="childFS"></div>
+        </section>
+</body>
+</html>

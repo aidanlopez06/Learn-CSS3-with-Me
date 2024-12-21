@@ -1,0 +1,71 @@
+html {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+section {
+    border: 10px solid black;
+    filter: none;
+}
+.topic {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.info {
+    text-align: center;
+    font-size: 2rem;
+}
+#blur {
+    height: 50vh;
+    width: 100vw;
+    background-image: url(testImg.png);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    filter: blur(10px);
+}
+
+#brightness {
+    height: 50vh;
+    width: 100vw;
+    background-image: url(testImg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(20%);
+}
+
+#contrast {
+    height: 50vh;
+    width: 100vw;
+    background-image: url(testImg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: contrast(200%);
+}
+
+#grayscale {
+    height: 50vh;
+    width: 100vw;
+    background-image: url(testImg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: grayscale(80%)
+}
+
+#saturate {
+    height: 50vh;
+    width: 100vw;
+    background-image: url(testImg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: saturate(3000%)
+}

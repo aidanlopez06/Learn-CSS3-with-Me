@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Positions</title>
+</head>
+<body>
+
+    <h1>CSS Positions</h1>
+    <h2 class="topic">Position Static Property</h2>
+    <p class="info">This is the position static property This is the default value. This renders elements as they appear in the document flow. You can't add any values to change it's position since it's stuck as static.</p>
+    <div class="static">
+    <div class="staticOne"></div>
+    <div class="staticTwo"></div>
+    <div class="staticThree"></div>
+    </div>
+
+    <h2 class="topic">Position Relative Property</h2>
+    <p class="info">This is the position relative property. The element is positioned relative to it's normal position. Let's say you add 100px to the left, the element will be moved 100px to the desired location. The element however, only changes positions when values are added to it but it's behavior remains static.</p>
+    <div class="relative">
+        <div class="relativeOne"></div>
+        <div class="relativeTwo"></div>
+        <div class="relativeThree"></div>
+    </div>
+
+    <h2 class="topic">Position Absolute Property</h2>
+    <p class="info">The Position Absolute Property. The element is taken out of the normal document flow, and no space is created for it. The element is positioned relative to it closest positioned ancestor, or to the initial containing block. In this example all elements are in the absolute position, and are relative to the initial containing block which is the root html element. They are stacked because they are taken out of the normal doc flow, and have no space created for them. However, the values of left, right, bottom, top, are what's taking them out of being stacked on top of each other, but since the root element is html, any values of top or bottom will completely distort their position.. </p>
+    <div class="absolute">
+        <div class="absoluteOne"></div>
+        <div class="absoluteTwo"></div>
+        <div class="absoluteThree"></div>
+    </div>
+
+    <h2 class="topic">Position Fixed Property</h2>
+    <p class="info">The position fixed property positions elements to be relative of the browser window. Hence, why the first box is not showing because there have been no values applied to is so it's in the browser window but hasn't been placed anywhere. They are also fixed, and follows thr browser screen at all times.</p>
+    <div class="fixed">
+        <div class="fixedOne"></div>
+        <div class="fixedTwo"></div>
+        <div class="fixedThree"></div>
+    </div>
+
+    <h2 class="topic">Position Sticky Property</h2>
+    <p class="info">The position sticky property positions elements based on user's scroll position. Positioned relative until a given offset portion is met in the viewport, then it sticks in place.
+        <div class="sticky">
+            <div class="stickyOne"></div>
+            <div class="stickyTwo"></div>
+            <div class="stickyThree"></div>
+        </div>
+        <p>See, now it's gone.</p>
+    </p>
+</body>
+</html>

@@ -1,0 +1,53 @@
+html {
+    font-size: 1rem;
+    background-color: black;
+    color: ivory;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.topic {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.info {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#parent1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: skyblue;
+    width: 50vw;
+    height: 30vh;
+}
+
+#child1 {
+    position: relative;
+    left: 30vw;
+}
+
+#parent2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: skyblue;
+    width: 50vw;
+    height: 30vh;
+    margin-bottom: 200px;
+}
+
+#child2 {
+    position: relative;
+    left: 30vw;
+    background-color: inherit;
+    height: inherit;
+    width: inherit;
+}

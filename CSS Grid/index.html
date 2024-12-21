@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="UA-X-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Grid</title>
+</head>
+<body>
+    <h1>css grids</h1>
+    <h2 class="topic">Grid-Template-Columns Property</h2>
+    <p class="info">In order to use this property, the display has to be set to grid. This property allows you to adjust how many columns are in the grid by specifying the size of each individual column you want. This has no affect on the row size as you will see that it is 100px from left to right but not from top to bottom.</p>
+<section class="container1">
+    <header class="grid1">Header</header>
+    <nav class="grid1">Nav</nav>
+    <div class="grid1">Div</div>
+    <aside class="grid1">Aside</aside>
+    <article class="grid1">Article</article>
+    <footer class="grid1">Footer</footer>
+</section>
+<h2 class="topic">Grid-Template-Rows Property</h2>
+<p class="info">This property allows you to adjust how many and what size the rows of children are inside of a container. This property has no affect on column size and you will see that it is 100px from top to bottom, but not 100px from left to right.</p>
+<section class="container2">
+    <header class="grid2">Header</header>
+    <nav class="grid2">Nav</nav>
+    <div class="grid2">Div</div>
+    <aside class="grid2">Aside</aside>
+    <article class="grid2">Article</article>
+    <footer class="grid2">Footer</footer>
+</section>
+
+<h2 class="topic">Grid-Template-Rows and Grid-Template-Columns Combined</h2>
+<p class="info">When you combine both of these properties, each cell starts to come togther and will appear in a grid style. This grid will be a 3x3 grid which you won't see because there aren't enough children, but will appear if you go into inspect element. Each cell inside the grid will be 200px row and column.</p>
+<section class="container3">
+    <header class="grid3">Header</header>
+    <nav class="grid3">Nav</nav>
+    <div class="grid3">Div</div>
+    <aside class="grid3">Aside</aside>
+    <article class="grid3">Article</article>
+    <footer class="grid3">Footer</footer>
+</section>
+
+<h2 class="topic">The repeat() Function</h2>
+<p class="info">The repeat function allows you to use both of the properties above without having to explicity state each column and grid's size. First you enter the amount inside the function, follow it by a comma, and then the size for all of the cells which in this example is 200px. The example here will look the same as the last, but the property and value is different. Here the property looks like this: <br> .container {<br>grid-template-columns: repeat(3, 200px);<br>grid-template-rows: repeat(3, 200px);<br>}</p>
+<section class="container4">
+    <header class="grid4">Header</header>
+    <nav class="grid4">Nav</nav>
+    <div class="grid4">Div</div>
+    <aside class="grid4">Aside</aside>
+    <article class="grid4">Article</article>
+    <footer class="grid4">Footer</footer>
+</section>
+
+<h2 class="topic">Grid-Gap Property</h2>
+<p class="info">The grid gap property allows you to appoint a gap or sort of margin between each cell. Here's an example with a grid gap of 20px: </p>
+<section class="container5">
+    <header class="grid5">Header</header>
+    <nav class="grid5">Nav</nav>
+    <div class="grid5">Div</div>
+    <aside class="grid5">Aside</aside>
+    <article class="grid5">Article</article>
+    <footer class="grid5">Footer</footer>
+</section>
+
+<h2 class="topic">Grid Spanning</h2>
+<p class="info">Grid spanning allows you to stretch a cell or multiple cells over a certain distance. You can specify the grid start and where you want the spanning to end which is the grid end. This may be difficult to understand, but the example and going into inspect will help understand this. The grid is divided up between lines, in the case 4 lines for columns, and 4 lines for the grids. Each cell is in between two lines. If you want one cell to span over 3 lines you can use the grid-column-start and grid-column-end properties to change this, and ofc when working with the rows you just change the column to rows when using the properties. Here We are going to span the header element from the first line in the column, to the 3rd line in the column. If you're spanning just one child or multiple, you must select them by adding them into a unique class or giving a singular child an id and add the spanning to that(those) child(s). As you can see, the other cells start moving over and going onto a new line/cell to make room for the child that's spanning over a longer distance. Now when an element is on a line that won't allow it to span over the lines stated, it moves onto a new line to allow it as shown with the aside element and the other elements move accordingly.</p>
+<section class="container6">
+    <header class="grid6" id="spanning1">Header</header>
+    <nav class="grid6">Nav</nav>
+    <div class="grid6">Div</div>
+    <aside class="grid6" id="spanning2">Aside</aside>
+    <article class="grid6">Article</article>
+    <footer class="grid6">Footer</footer>
+</section>
+
+<h2 class="topic">Grid Spanning Row</h2>
+<p class="info">Here is an example of the same topic discussed above, but with a row. Also, here the grid row start is shorted to grid-row: 1/3. This shows the start which is 1 followed by a slash, and 3 to indicate the end.</p>
+<section class="container6">
+    <header class="grid6" id="spanning3">Header</header>
+    <nav class="grid6">Nav</nav>
+    <div class="grid6">Div</div>
+    <aside class="grid6" id="spanning4">Aside</aside>
+    <article class="grid6">Article</article>
+    <footer class="grid6">Footer</footer>
+</section>
+
+<h2 class="topic">The minmax() Function.</h2>
+<p class="info">The minmax() function when working with grids allows you to for example, let you select the size of a column regularly, but if the screen size is diminishing and becoming smaller, it also has a minmum (limit) size that the column/row's children can become. Therefore you can make these children stay a particular size if screensize decreases. Here is an example, the size of the elements will be 200px, however, the children in the middle column will remain 200px if the screen reduces in size.</p>
+<section class="container7">
+    <header class="grid7">Header</header>
+    <nav class="grid7">Nav</nav>
+    <div class="grid7">Div</div>
+    <aside class="grid7">Aside</aside>
+    <article class="grid7">Article</article>
+    <footer class="grid7">Footer</footer>
+</section>
+
+<h2 class="topic">The auto-fit Value</h2>
+<p class="info">The auto-fit value is a very good one. This autofit value that is mostly used with the grid-template-columns/grid-template-rows properties, tell the browser "Hey, I don't exactly know how many columns/rows I want, would you mind just automatically fit them appropriately by how much content there is and their respective size?" and the browser says "k". Here is an example of this. Both the column, and row have the auto-fit value, but the column is 100px and the row is 200px. Here is the effect of that.</p>
+<section class="container8">
+    <header class="grid8">Header</header>
+    <nav class="grid8">Nav</nav>
+    <div class="grid8">Div</div>
+    <aside class="grid8">Aside</aside>
+</section>
+</body>
+</html>

@@ -1,0 +1,50 @@
+html {
+    font-size: 1rem;
+}
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+#transform {
+    background-color: teal;
+    height: 40vh;
+    width: 100vw;
+}
+#textTransform {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+#textTransformTwo {
+    text-transform: lowercase;
+    font-size: 2rem;
+}
+#textTransformThree {
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+#lineHeight {
+    background-color: darkred;
+    height: 40vh;
+    width: 100vw;
+}
+#lineHeightOne {
+    color: white;
+    line-height: 50px;
+}
+#letterSpacing {
+    background-color: violet;
+    height: 40vh;
+    width: 100vw;
+}
+#letterSpacingTwo {
+    letter-spacing: 10px;
+}
+#wordSpacing {
+    background-color: black;
+    color: white;
+    height: 40vh;
+    width: 100vw;
+}
+#wordSpacingTwo {
+    word-spacing: 20px;
+}

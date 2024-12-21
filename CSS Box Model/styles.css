@@ -1,0 +1,115 @@
+html {
+    font-size: 1rem;
+}
+h1 {
+text-align: center;
+text-transform: uppercase;
+font-size: 3rem;
+}
+.topics {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    border: 5px solid black;
+    padding: 12px;  
+}
+.info {
+    font-size: 20px;
+}
+#borderBoxOne {
+    /* background-color: teal;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(242, 26, 242) 
+    can be written as: */
+    border: 10px solid rgb(242, 26, 242);
+    background-color: black;
+    color: white;
+}
+
+#borderBoxTwo {
+    border-right: 10px solid red;
+    background-color: black;
+    color: white;
+}
+
+#borderBoxThree {
+    border-left: 10px solid green;
+    background-color: black;
+    color: white;
+}
+
+#borderBoxFour {
+    border-top: 10px solid blue;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+#borderBoxFive {
+    border-bottom: 10px solid chocolate;
+    background-color: black;
+    color: white;
+}
+
+#paddingBoxOne {
+    border: 10px solid orangered;
+    padding: 50px;
+}
+
+#paddingBoxTwo {
+    border: 10px solid orangered;
+    padding-right: 50px;
+}
+
+#paddingBoxThree {
+    border: 10px solid orangered;
+    padding-left: 50px;
+}
+
+#paddingBoxFour {
+    border: 10px solid orangered;
+    padding-top: 50px;
+}
+
+#paddingBoxFive {
+    border: 10px solid orangered;
+    padding-bottom: 50px;
+}
+
+#marginBoxOne {
+    border: 10px solid teal;
+    margin: 50px;
+    width: 50vw;
+    text-align: center;
+}
+
+#marginBoxTwo {
+    border: 10px solid pink;
+    width: 50vw;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#marginBoxThree {
+    border: 10px solid green;
+    width: 50vw;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#marginBoxFour {
+    border: 10px solid red;
+    margin-right: 40px;
+    text-align: center;
+}
+#marginBoxFive {
+    border: 10px solid cyan;
+    width: 50vw;
+    margin-left: 40px;
+    text-align: center;
+}
+
+
+.borderBox {
+text-align: center;
+}

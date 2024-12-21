@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1rem;
+    background-color: teal;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.topic {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.info {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container {
+    background-color: whitesmoke;
+    height: 700px;
+    width: 80vw;
+    border: 10px solid black;
+    margin: 30px auto;
+    display: flex;
+}
+
+.container .child {
+    background-color: violet;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+}
+
+.row {
+    background-color: whitesmoke;
+    height: 700px;
+    width: 80vw;
+    border: 10px solid black;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.row .childRow {
+    background-color: violet;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    flex-direction: row;
+}
+
+.column {
+    background-color: whitesmoke;
+    width: 80vw;
+    height: 700px;
+    margin: 30px auto;
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.column .childColumn {
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: violet;
+}
+
+.justifyContent1 {
+    border: 10px solid black;
+    background-color: whitesmoke;
+    height: 700px;
+    width: 80vw;
+    margin: 30px auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.justifyContent1 .jcRow1 {
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    background-color: violet;
+    margin: 10px;
+}
+
+.justifyContent2 {
+    width: 80vw;
+    height: 700px;
+    margin: 30px auto;
+    background-color: whitesmoke;
+    border: 10px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.justifyContent2 .jcRow2 {
+    text-align: center;
+    margin: 10px;
+    background-color: violet;
+    height: 70px;
+    width: 70px;
+}
+
+.justifyContent3 {
+    background-color: whitesmoke;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.jcRow3 {
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    background-color: violet;
+}
+
+.column1 {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.column1Child {
+    background-color: violet;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
+
+.column2 {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.columnChild2 {
+    background-color: violet;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
+
+.column3 {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.columnChild3 {
+    background-color: violet;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    text-align: center;
+}
+
+.spaceAround {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.childSA {
+    background-color: violet;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+}
+
+.spaceBetween {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.childSB {
+    background-color: violet;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    text-align: center;
+}
+
+.flexWrap {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.childFW {
+    background-color: violet;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin: 10px;
+}
+.alignItems1 {
+    background-color: white;
+    border: 10px solid black;
+    height: 700px;
+    width: 80vh;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.childAI1 {
+    background-color: violet;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    text-align: center;
+}
+
+.alignItems2 {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.childAI2 {
+    background-color: violet;
+    text-align:center;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+}
+
+.alignItems3 {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.childAI3 {
+    background-color: violet;
+    margin: 10px;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+
+.bigCenter {
+    background-color: white;
+    border: 10px solid black;
+    height: 700px;
+    width: 80vw;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.childCenter {
+    background-color: violet;
+    text-align: center;
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.alignContent1 {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.childAC1 {
+    background-color: violet;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.alignContent2 {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.childAC2 {
+    background-color: violet;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    text-align:  center;
+}
+
+.alignContent3 {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.childAC3 {
+    background-color: violet;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    text-align:  center;
+}
+
+.alignContent4 {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.childAC4 {
+    background-color: violet;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    text-align:  center;
+}
+
+.order1 {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.childOrder1 {
+    background-color: violet;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    text-align:  center;
+}
+
+.special {
+    order: 1;
+}
+
+.special2 {
+    order: 2;
+}
+
+.alignSelf {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.childAS {
+    background-color: violet;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    text-align:  center;
+}
+
+.specialAS {
+    align-self: center;
+}
+
+.specialAS2 {
+    align-self: flex-end;
+}
+
+.flexGrow {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.childFG {
+    background-color: violet;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+}
+
+.specialFG1 {
+    flex-grow: 1;
+}
+.specialFG2 {
+    flex-grow: 2;
+}
+.specialFG3 {
+    flex-grow: 3;
+}
+.specialFG4 {
+    flex-grow: 4;
+}
+
+.flexBasis {
+    background-color: white;
+    margin: 30px auto;
+    border: 10px solid black;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+} 
+
+.childFB {
+    background-color: violet;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+
+}
+
+.specialChildFB {
+    flex-basis: 200px;
+}
+
+.flexShrink {
+    background-color: white;
+    border: 10px solid black;
+    margin: 30px auto;
+    height: 700px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start
+}
+
+.childFS {
+    background-color: violet;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    text-align: center;
+}
+
+.specialChildFS {
+    flex-shrink: 2;
+}

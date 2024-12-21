@@ -1,0 +1,49 @@
+html {
+    font-size: 16px;
+}
+#percentageSection {
+    background-color: red;
+    height: 500px;
+    width: 500px;
+}
+
+#percentage {
+    background-color: green;
+    height: 50%;
+    width: 50%;
+}
+
+#emSection {
+    background-color: red;
+    font-size: 2em;
+}
+#em {
+font-size: 2em;
+}
+#remSection {
+    background-color: red;
+    font-size: 5rem;
+}
+#rem {
+    font-size: 2rem;
+}
+#vwDiv {
+    background-color: teal;
+    width: 100vw;
+    height: 200px;
+}
+#vw {
+    font-size: 2rem;
+}
+#vhDiv {
+    background-color: aqua;
+    width: 500px;
+    height: 20vh;
+}
+#vh {
+    font-size: 2rem;
+}
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}

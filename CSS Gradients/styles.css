@@ -1,0 +1,102 @@
+html {
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.topic {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.info {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#bgGradientOne {
+    height: 50vh;
+    width: 100vw;
+    border: 10px solid white;
+    background-position: center;
+    background-image: linear-gradient(teal, yellow), url(testImg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bgGradientTwo {
+    height: 50vh;
+    width: 100vw;
+    border: 10px solid white;
+    background-image: linear-gradient(rgba(255, 255, 0, 0.2), rgba(238, 130, 238, 0.279)), url(testImg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bgGradientThree {
+    height: 50vh;
+    width: 100vw;
+    border: 10px solid white;
+    background-position: center;
+    background-image: linear-gradient(to top, orange, green), url(testImg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bgGradientFour {
+    height: 50vh;
+    width: 100vw;
+    border: 10px solid white;
+    background-position: center;
+    background-image: linear-gradient(to bottom, white, black), url(testImg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bgGradientFive {
+    height: 50vh;
+    width: 100vw;
+    border: 10px solid white;
+    background-position: center;
+    background-image: linear-gradient(to right, red, blue), url(testImg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bgGradientSix {
+    height: 50vh;
+    width: 100vw;
+    border: 10px solid white;
+    background-image: linear-gradient(to left, violet, yellow), url(testImg.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bgGradientSeven {
+    height: 50vh;
+    width: 100vw;
+    border: 10px solid white;
+    background-image: linear-gradient(to bottom, yellow, green, blue), url(testImg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bgLinear {
+    height: 50vh;
+    width: 100vw;
+    background-image: radial-gradient(green, lightgreen), url(testImg.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 500px;
+}

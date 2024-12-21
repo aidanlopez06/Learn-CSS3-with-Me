@@ -1,0 +1,38 @@
+html {
+    font-size: 1rem;
+}
+body * {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.topic {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.info {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.link:link {
+    color: black;
+}
+
+.visited:visited {
+    color: red;
+}
+
+.hover:hover {
+    color: brown;
+}
+
+.active:active {
+    color: orange
+}

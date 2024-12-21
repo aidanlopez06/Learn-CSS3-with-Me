@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inheritance</title>
+</head>
+<body>
+    <h1>CSS Inheritance</h1>
+    <h2 class="topic">Children Will Inherit Parent Typography Changes</h2>
+    <p class="info">Children will inherit parent typography properties however, children will not inherit layout properties. In this example, the child element did not inherit the background color or any kind of the width or heights applied to it.</p>
+    <div id="parent1">Parent
+    <div id="child1">Child</div>
+    </div>
+
+    <h2 class="topic">The Inherit Property</h2>
+    <p class="info">In order to make children elements inherit parent layout properties, you will need to use the inherit property. For example this would look like .child{background-color: inherit;}. In this example, the background color, height, and width are inherited from the parent element as described in the last example.</p>
+    <div id="parent2">Parent
+        <div id="child2">Child</div>
+    </div>
+</body>
+</html>

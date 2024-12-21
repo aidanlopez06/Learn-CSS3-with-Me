@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Display</title>
+</head>
+<body>
+    <h1>Basic CSS Display Properties</h1>
+
+    <h2 class="topic">Default Values</h2>
+    <p class="info">These are the default display properties for each element. The height and width properties in the span element won't have any effect because it is inline by default.</p>
+    <div id="defaultDiv">div is block</div>
+    <span id="defaultSpan">span is inline</span>
+
+
+    <h2 class="topic">Block</h2>
+    <p class="info">For this example, div is already a block level element however, span is by default an inline element. So, by changing the display property of the span to block, it will no longer be inline. Changing the display for div to block results in no change because it already is.</p>
+    <div id="blockDiv">div</div>
+    <span id="blockSpan">span</span>
+
+    <h2 class="topic">Inline</h2>
+    <p class="info">Since span is already an inline element, it won't be changed in this example. However, since div is a block level element, it will be changed to inline for this example. Height and Width properties for both will have no effect since div has been changed to inline, and span is inline by default.</p>
+    <div id="inlineDiv">div</div>
+    <span id="inlineSpan">span</span>
+
+    <h2 class="topic">Inline-Block</h2>
+    <p class="info">Here we are changing both element's display property. We are changing both to be inline, but still display in block form. Also because they are partly block, height and width properties will be allowed.</p>
+    <div id="inlineBlockDiv">div</div>
+    <span id="inlineBlockSpan">span</span>
+</body>
+</html>

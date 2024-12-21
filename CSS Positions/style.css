@@ -1,0 +1,170 @@
+html {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.topic {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.info {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.static {
+    width: 90vw;
+    height: 70vh;
+    background-color: lightpink
+}
+
+.staticOne {
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    position: static;
+}
+
+.staticTwo {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    position: static;
+}
+
+.staticThree {
+    background-color: violet;
+    height: 100px;
+    width: 100px;
+    position: static;
+}
+
+.relative {
+    width: 90vw;
+    height: 70vh;
+    background-color: lightpink
+}
+
+.relativeOne {
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+}
+
+.relativeTwo {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 100px;
+}
+
+.relativeThree {
+    background-color: violet;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+}
+
+.absolute {
+    width: 90vw;
+    height: 70vh;
+    background-color: lightpink
+}
+
+.absoluteOne {
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.absoluteTwo {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+}
+
+.absoluteThree {
+    background-color: violet;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 2500px;
+}
+
+.fixed {
+    width: 90vw;
+    height: 70vh;
+    background-color: lightpink
+}
+
+.fixedOne {
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+}
+
+.fixedTwo {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 200px;
+    right: 100px;
+}
+
+.fixedThree {
+    background-color: violet;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 200px;
+    right: 200px;
+}
+
+.sticky {
+    width: 90vw;
+    height: 70vh;
+    background-color: lightpink;
+    margin-bottom: 1000px;
+    position: sticky;
+}
+
+.stickyOne {
+    background-color: teal;
+    height: 100px;
+    width: 300px;
+    position: sticky;
+    top: 0;
+
+}
+
+.stickyTwo {
+    background-color: orange;
+    height: 100px;
+    width: 200px;
+    position: sticky;
+    top: 0;
+}
+
+.stickyThree {
+    background-color: violet;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    top: 0;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Units in CSS</title>
+</head>
+<body>
+    <h1>Units in CSS</h1>
+    <section id="percentageSection">
+        <div id="percentage">
+           <p>Percentages. Percentages take up a percentage of the parent element. For this div, it is the section element. The div is taking up 50% of it's parent element. </p>
+        </div>
+    </section>
+    <section id="emSection">
+        <div>
+            <p id="em">Em's. Em's are relative to the font-size of the element. (The defualt font size of an html doc is 16px, so 2em would be two times the default font size which would as a result be 32px.) Usually used with font-size. Follows the parent elementʼs em size. Parent em size is 2em or 32px, so therefore 2em on the p element used here is 64px.</p>
+        </div>
+    </section>
+    <section id="remSection">
+        <div>
+            <p id="rem">remʼs. remʼs are relative to the font-size of the root element. Would not care about the size of the parent element, only the root element which is the html element. The fontsize of the section is 5rem but it doesn't care, and only cares about the html rem which is 1.</p>
+        </div>
+    </section>
+    <section id="vwSection">
+<div id="vwDiv">
+    <p id="vw">vw. Vw is relative to the viewport. Here the vw is 100 with a height of 200px. Can be used with vh.</p>
+</div>
+    </section>
+    <section id="vhSection">
+        <div id="vhDiv">
+            <p id="vh">vh is exactly the same as vw except it is the height. Vh is relative to the viewport. Here the vh is 20 with a width of 500px. Can be used with vw.</p>
+        </div>
+    </section>
+</body>
+</html>
